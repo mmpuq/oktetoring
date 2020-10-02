@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV PORT    9090
+ENV PORT    3030
 
 ADD ring /ring
 ADD ring.b64 /ring.b64
